@@ -7,7 +7,15 @@
         background-color: #f3f3f3;
     }
 
-    .ui.text.menu{
+    .ui.top.fixed.text.inverted.menu{
         background-color: transparent;
+        margin: 0em 0em 0em 10em;
+        padding: 0em;
+        
+    }
+    .ui.container.fluid.head{
+        position: relative;
+        margin: 0em;
+        padding: 0em;
     }
 </style>
