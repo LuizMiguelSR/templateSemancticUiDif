@@ -1,0 +1,13 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css"/>
+
+<style type="text/css">
+    body {
+        background-color: #f3f3f3;
+    }
+
+    .ui.text.menu{
+        background-color: transparent;
+    }
+</style>
