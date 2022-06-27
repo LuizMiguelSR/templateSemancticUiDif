@@ -3,8 +3,8 @@
 <div class="ui grid">
     <div class="computer only row">
         <div class="column">
-            <div class="ui top fixed text inverted menu">
-                <a href="index.jsp"><img class="ui stackable" src="https://github.com/LuizMiguelSR/templateBootStrap/blob/main/img/fatecPgWhite.png?raw=true" style="width: 95px; margin-top: 1.5em; margin-right: 1em"></a>
+            <div class="ui text top fixed menu">
+                <a href="index.jsp"><img class="ui stackable" src="img/fatecPgCl.png" style="width: 95px; margin-top: 1.5em; margin-right: 1em"></a>
                 <a class="item" href="index.jsp">Home</a>
                 <div class="ui simple dropdown item">
                 Institucional

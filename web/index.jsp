@@ -23,5 +23,7 @@
         <%@include file="WEB-INF/jspf/scripts.jspf" %>
         <%@include file="WEB-INF/jspf/navbar.jspf" %>
         <%@include file="WEB-INF/jspf/header.jspf" %>
-    </body>
+    </body><br/><br/>
+        
+    <%@include file="WEB-INF/jspf/footer.jspf" %>
 </html>

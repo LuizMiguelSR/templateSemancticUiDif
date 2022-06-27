@@ -7,15 +7,30 @@
         background-color: #f3f3f3;
     }
 
-    .ui.top.fixed.text.inverted.menu{
-        background-color: transparent;
-        margin: 0em 0em 0em 10em;
-        padding: 0em;
-        
+    .ui.text.top.fixed.menu{
+        background-color: rgba(27, 28, 29, 0.2);
+        margin: 0em 0em 0em 0em;
+        padding: 0em 0em 0em 10em;        
     }
+    
     .ui.container.fluid.head{
         position: relative;
         margin: 0em;
         padding: 0em;
+    }
+    
+    .ui.box.header{
+        background-color: #931914; 
+        margin-top: 0em;
+        margin-bottom: 0em;
+        border-radius: 0em; 
+        height: 0.25em;
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        left: 0em;
+        top: 0em;
     }
 </style>
