@@ -3,14 +3,29 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css"/>
 
 <style type="text/css">
-    body {
+    .body {
         background-color: #f3f3f3;
     }
 
-    .ui.text.top.fixed.menu{
-        background-color: rgba(27, 28, 29, 0.2);
+    .ui.inverted.top.fixed.menu{
+        background-color: #931914;
+        font-size: 1.2em;
         margin: 0em 0em 0em 0em;
-        padding: 0em 0em 0em 10em;        
+        padding: 0em 0em 0em 10em;
+        box-shadow: 0em 0.3em 0.3em rgba(0, 0, 0, 0.3);        
+    }
+    
+    .ui.inverted.mobil.menu{
+        background-color: #931914;
+        box-shadow: 0em 0.3em 0.3em rgba(0, 0, 0, 0.3);
+    }
+    
+    .ui.sidebar.inverted.vertical.menu {
+        background-color: #931914;
+    }
+    
+    .card {
+        box-shadow: 0em 0.3em 0.3em rgba(0, 0, 0, 0.3);
     }
     
     .ui.container.fluid.head{
@@ -27,9 +42,45 @@
         height: 0.25em;
     }
     
+    .ui.segment.mid{
+        background-color: #931914; 
+        margin-top: 3em;
+        margin-bottom: 3em;
+        border-radius: 0em;
+    }
+    
+    .ui.segment.mid2{
+        background-image: url(img/monitores.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        border-radius: 0em;
+        border: none;
+    }
+    
+    .ui.footer.segment {
+        margin: 5em 0em 0em;
+        padding: 5em 0em;
+    }
+    
+    .ui.inverted.vertical.footer.segment.stackable {
+        margin-top: 0em;
+    }
+    
+    .ui.pushable.segment {
+        border: none;  
+        border-radius: 0em; 
+        background-color: #f3f3f3;
+        margin: 0 !important;
+    }
+    
+    .ui.grid{
+        padding: 0 !important;
+    }
+    
     video {
         width: 100%;
-        height: 100%;
         left: 0em;
         top: 0em;
     }

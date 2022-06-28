@@ -6,12 +6,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 
 <script>
-    $(document)
-        .ready(function() {  
-            $('.ui.sticky')
-            .sticky({
-            context: '#example2',
-            pushing: true
-        });
+  $(document)
+    .ready(function() {                    
+        $('.ui.sidebar').sidebar({
+            context: $('.ui.pushable.segment'),
+            transition: 'overlay'
+        }).sidebar('attach events', '#mobile_item');
+    });
+</script>
+
+<script>
+    $(function(){
+	$("#test").click(function(){
+            $(".test").modal('show');
+	});
+	$(".test").modal({
+            closable: true
+	});
     });
 </script>
