@@ -25,4 +25,9 @@
       - [x]  Criação dos cards com cursos;
       - [x]  Alteração nas cores do menu;
       - [x]  Inserção do menu responsivo.
+  - [Versão 0.04 - 30.06.2022](https://github.com/LuizMiguelSR/templateSemancticUiDif/commit/cd8a20c31e06104c0ba527974459783006221b4a)
+    - Diagramação da página inicial #04;
+      - [x]  Ajustes na font family;
+      - [x]  Inserção do conteúdo de eventos;
+      - [x]  Inserção do conteúdo “Fala Fatecano” como um carrossel.
   </details>
